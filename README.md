@@ -20,23 +20,23 @@ This project will enable a Raspberry Pi 4 with Raspberry Pi Os Lite to act as a 
 <p align="center">
 Identify the Raspberry Pi's ip address and connect to it via SSH: <br/>
  <br/>
-<img src="https://i.imgur.com/PTJPGfP.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/PTJPGfP.png" height="80%" width="80%" alt="pihole setup"/>
 <br/>
 <br/>
 Run this command to install the Pi-Hole software:  <br/>
  <br/>
-<img src="https://i.imgur.com/2OxmOZT.png" height="80%" width="80%" alt=""/>
+<img src="https://i.imgur.com/2OxmOZT.png" height="80%" width="80%" alt="pihole setup"/>
 <br />
 <br />
 Set the DNS server for the client(s) of the Pi-Hole: <br/>
  <br/>
-<img src="https://i.imgur.com/M948uzT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/M948uzT.png" height="80%" width="80%" alt="pihole setup"/>
 <br />
 <br />
 Access the Pi-Hole through the Web Interface for further options and configurations:  <br/>
  Credit to https://pi-hole.net <br/>
  <br/>
-<img src="https://i.imgur.com/qSyFwqe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qSyFwqe.png" height="80%" width="80%" alt="pihole setup"/>
 <br />
 
 </p>
