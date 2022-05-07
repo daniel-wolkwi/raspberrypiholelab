@@ -1,48 +1,44 @@
 <h1>Raspberry Pi "Pi-Hole" Lab</h1>
 
 <h2>Description</h2>
-placeholder
+This project will enable a Raspberry Pi 4 with Raspberry Pi Os Lite to act as a DNS (also, optionally, a DHCP server) server for clients on a home network. This allows the Pi to filter unwanted traffic.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Utilities & Technologies Used</h2>
 
-- <b>placeholder</b> 
-- <b>placeholder</b>
+- <b>PuTTY - SSH</b> 
+- <b>Windows Network and Sharing Center</b>
 
-<h2>Environments Used </h2>
+<h2>Environments</h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10</b>
+- <b>Debian Linux CLI</b>
 
-<h2>Program walk-through:</h2>
+<h2>Program Walk-Through</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="" height="80%" width="80%" alt=""/>
+Identify the Raspberry Pi's ip address and connect to it via SSH: <br/>
+ <br/>
+<img src="https://i.imgur.com/PTJPGfP.png" height="80%" width="80%" alt=""/>
+<br/>
+<br/>
+Run this command to install the Pi-Hole software:  <br/>
+ <br/>
+<img src="https://i.imgur.com/2OxmOZT.png" height="80%" width="80%" alt=""/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="" height="80%" width="80%" alt=""/>
+Set the DNS server for the client(s) of the Pi-Hole: <br/>
+ <br/>
+<img src="https://i.imgur.com/M948uzT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Access the Pi-Hole through the Web Interface for further options and configurations:  <br/>
+ Credit to https://pi-hole.net <br/>
+ <br/>
+<img src="https://i.imgur.com/qSyFwqe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
