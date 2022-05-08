@@ -1,14 +1,14 @@
 <h1>Raspberry Pi "Pi-Hole" Lab</h1>
 
 <h2>Description</h2>
-This project will enable a Raspberry Pi 4 with Raspberry Pi Os Lite to act as a DNS (also, optionally, a DHCP server) server for clients on a home network. This allows the Pi to filter unwanted traffic.
+This project will enable a Raspberry Pi 4 with Raspberry Pi OS Lite to act as a DNS (also, optionally, a DHCP) server for clients on a home network. This allows the Pi to filter unwanted traffic.
 <br />
 
 
 <h2>Utilities & Technologies Used</h2>
 
 - <b>PuTTY - SSH</b> 
-- <b>Windows Network and Sharing Center</b>
+- <b>Pi-Hole Web Interface</b>
 
 <h2>Environments</h2>
 
@@ -28,7 +28,7 @@ Run this command to install the Pi-Hole software:  <br/>
 <img src="https://i.imgur.com/2OxmOZT.png" height="80%" width="80%" alt="pihole setup"/>
 <br />
 <br />
-Set the DNS server for the client(s) of the Pi-Hole: <br/>
+Set the DNS server for the client(s) to the Pi-Hole: <br/>
  <br/>
 <img src="https://i.imgur.com/M948uzT.png" height="80%" width="80%" alt="pihole setup"/>
 <br />
